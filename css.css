@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.hr {
+  background: lightgray;
+  width: 100%;
+  height: 1px;
+}
+
+header {
+  background-image: url("img/night2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 200px;
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    background-size: cover;
+  }
+}
+
+header .container {
+  position: relative;
+}
+
+header .container #clear {
+  position: absolute;
+  top: 1rem;
+  right: 0rem;
+}
+
+header .container #date {
+  position: absolute;
+  left: 0rem;
+  top: 160px;
+}
+
+header .container h3 {
+  color: #fff;
+  font-weight: 200;
+  font-size: 1rem;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%) translateY(-30%);
+          transform: translateX(-50%) translateY(-30%);
+  top: 90px;
+}
+
+header .container h3 span {
+  color: light;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 450px) {
+  header .container h3 {
+    text-align: center;
+    top: 80px;
+  }
+  header .container h3 span {
+    display: block;
+  }
+}
+
+header #date,
+header #clear {
+  padding: .5rem 1rem;
+  background: gray;
+  opacity: .85;
+  color: #fff;
+}
+
+header #clear:hover {
+  cursor: pointer;
+}
+
+main .line-through {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+
+main .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+main .item i:hover {
+  cursor: pointer;
+}
+
+main .item .fa-check-circle {
+  color: darkcyan;
+}
+
+main .item div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: block;
+  width: 100%;
+}
+
+main .item p {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+  margin-bottom: 0;
+  line-height: 95%;
+}
+
+main .item p.time {
+  font-size: small;
+  color: gray;
+}
+
+main .add-item {
+  border: 1px solid darkcyan;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+main .add-item .fa-plus-circle {
+  color: darkslategrey;
+}
+
+main .add-item input {
+  padding: 15px;
+  border-radius: 0px;
+  border: none;
+  height: 100%;
+  line-height: 200%;
+  width: 85%;
+}
+
+main .add-item input:focus {
+  outline: none;
+}
+
+footer {
+  font-size: small;
+  text-align: center;
+  color: lightgray;
+  display: block;
+  height: 100%;
+}
+
+footer .hr {
+  margin-bottom: .5rem;
+}
+
+footer .container {
+  padding-bottom: 1rem;
+}
+/*# sourceMappingURL=css.css.map */
