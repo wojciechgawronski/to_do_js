@@ -1,5 +1,7 @@
 # to_do_js
 
+Podgląd: https://gawronsky.com.pl/todo
+
 <b>TODO App</b> to prosta aplikacja, napisana w javaScript i ostylowana z użyciem SAAS, dająca możliwości
 - zapisywania,
 - edytowania,
