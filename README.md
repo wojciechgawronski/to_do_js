@@ -1,6 +1,10 @@
 # to_do_js
 
-<b>TODO lista</b> wykorzystująca pamięć klienta - localStorage i tam zapisująca dane, które pamięta po zamknięciu okna przeglądarki.
+<b>TODO App</b> to prosta aplikacja, dająca możliwości
+- zapisywania
+- edytowania
+- usuwania
+danych, wykorzystująca pamięć klienta - localStorage i tam zapisująca dane, które pamięta po zamknięciu okna przeglądarki.
 <ol>
 <li>Sprawdzenie czy istnieją dane w pamięci podręcznej</li>
 <li>Załadoanie listy lub zainiciowanie tablicy asocjacyjnej</li>
