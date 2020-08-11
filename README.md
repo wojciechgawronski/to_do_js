@@ -4,11 +4,13 @@
 - zapisywania
 - edytowania
 - usuwania
-danych, wykorzystująca pamięć klienta - localStorage i tam zapisująca dane, które pamięta po zamknięciu okna przeglądarki.
+<br>danych, wykorzystująca pamięć klienta - localStorage i tam zapisująca dane, które zostają zapamiętane po zamknięciu okna przeglądarki.
+
+Zasada działanaia:
 <ol>
 <li>Sprawdzenie czy istnieją dane w pamięci podręcznej</li>
 <li>Załadoanie listy lub zainiciowanie tablicy asocjacyjnej</li>
-<li>Zmianu zapisują się jednoczesnie w localStorage i dynamicznie zmieniane na stronie</li>
+<li>Zmiany na liście zapisują się jednoczesnie w localStorage i są dynamicznie zmieniane na stronie</li>
 </ol>
 
 Aplikacja została napisana na podstawie tutoriala i rozwinięta o dodatkowe funkcje:
