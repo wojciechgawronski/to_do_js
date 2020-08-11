@@ -9,54 +9,69 @@
             rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
             integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-      <link rel="stylesheet" href="css.css">
+      <link rel="stylesheet" href="css/css.css">
 </head>
 
 <body>
-      <header>
+      <header id="header">
             <div class="container">
-                  <h3>TO DO APP 1.0 <span> with localStorage</span></h3>
-                  <div id="clear">
-                        <i class="fas fa-sync"></i>
+                  <h3>
+                        <i class="fab fa-gripfire"></i>
+                        <br>
+                        <b><a href="https://gawronsky.com.pl/todo">TO DO APP</a></b>
+                        <br>v1.3
+                  </h3>
+                  <div class="right-menu">
+
+                        <div id="clear" class="square">
+                              <i class="fas fa-sync"></i>
+                        </div>
+                        <div id="showTrash" data-show="true" class="square" title="show deleted items">
+                              <i class="far fa-trash-alt"></i>
+                        </div>
+                        <div id="mode" data-mode="dark" class="square" title="Dark mode">
+                              <i class="far fa-moon"></i>
+                        </div>
+                        
+                        
                   </div>
-                  <div id="date"></div>
+                  <div id="date" class="square"></div>
             </div>
       </header>
       <main>
             <div class="container">
-                  <ul id="list">
-                        <!-- <li class="item">
-                              <i class="far fa-circle" job='complete' id='0'></i>
-                              <div>
-                                    <p class="text">Drink coffee</p>
-                                    <p class="time">23.07, 8:35 &rarr;</p>
-                              </div>
-                              <i class="far fa-trash-alt" job='delete' id='0'></i>
-                        </li> -->
-                  </ul>
+                  <ul id="trash-list"></ul>
+
+                  <ul id="list"></ul>
 
                   <div class="add-item">
                         <i class="fas fa-plus-circle" id="add"></i>
-                        <input type="text" name="" id="input" placeholder ="Dodaj element" >
+                        <input type="text" name="" id="input" placeholder="Dodaj">
                   </div>
+                  <div id="trash"></div>
             </div>
       </main>
       <footer>
             <div class="container">
+                  <p class="form">
+                        <input type="checkbox" id="clerLocalStorage" name="name" >
+                        <label for="clerLocalStorage">
+                              Zaznacz, aby usunąć dane [ przechowywane w pamięci podręcznej przeglądarki na Toim urządzeniu - local Storage ]  po zamknięciu lub odświeżeniu przeglądarki. </p>
+                  </label>
+                  </p>
 
                   <div class="hr"></div>
-                  <p class="small text-muted">
+                  <p>
                         &copy; 2020
                   </p>
                   <p>
-                        <a href="https://www.youtube.com/watch?v=b8sUhU_eq3g">to do list with localStorage [ yT ]</a>
+                        <a href="https://www.youtube.com/watch?v=b8sUhU_eq3g">to do list with localStorage &rarr; <b>youTube</b>  </a>
                   </p>
             </div>
 
       </footer>
-      <script src="js.js"></script>
+      <script src="js/js.js"></script>
 
 </body>
 
 </html>
-
