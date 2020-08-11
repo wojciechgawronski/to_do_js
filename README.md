@@ -1,6 +1,6 @@
 # to_do_js
 
-<b>TODO App</b> to prosta aplikacja, dająca możliwości
+<b>TODO App</b> to prosta aplikacja, napisana w javaScript i ostylowana z użyciem SAAS, dająca możliwości
 - zapisywania,
 - edytowania,
 - usuwania,
@@ -11,7 +11,7 @@ Zasada działanaia:
 <ol>
 <li>Sprawdzenie czy istnieją dane w pamięci podręcznej</li>
 <li>Załadoanie listy lub zainiciowanie tablicy asocjacyjnej</li>
-<li>Zmiany na liście zapisują się jednoczesnie w localStorage i są dynamicznie zmieniane na stronie</li>
+<li>Zmiany zapisują się jednoczesnie w localStorage i są dynamicznie zmieniane w widoku</li>
 </ol>
 
 Aplikacja została napisana na podstawie tutoriala i rozwinięta o dodatkowe funkcje:
